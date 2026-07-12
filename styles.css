@@ -333,3 +333,52 @@ body.light-mode .presenter-list li {
     padding: 0.5rem 0;
   }
 }
+
+/* Custom Typographic Banner Engine */
+.site-text-banner {
+  padding: 2.5rem 1rem 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.banner-title {
+  font-family: var(--font-serif);
+  font-size: 2.25rem;
+  font-weight: 400;
+  color: var(--text-primary);
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.banner-sub {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--accent-color);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-top: 0.5rem;
+  opacity: 0.9;
+}
+
+/* Subtle border accent for the LRS / FN spaces */
+.space-esoteric {
+  border-bottom: 1px double var(--border-color);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  .banner-title {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+  }
+  .banner-sub {
+    font-size: 0.65rem;
+    letter-spacing: 1.5px;
+  }
+}
