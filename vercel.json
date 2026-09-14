@@ -1,0 +1,9 @@
+{
+  "cleanUrls": true,
+  "redirects": [
+    { "source": "/index.html", "destination": "/", "permanent": true },
+    { "source": "/s-connolly.html", "destination": "/events/2021-cyberspace", "permanent": false },
+    { "source": "/sorsha-runarius.html", "destination": "/events/2021-cyberspace", "permanent": false },
+    { "source": "/smq_ai.html", "destination": "/events/2021-cyberspace", "permanent": false }
+  ]
+}
